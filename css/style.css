@@ -1,0 +1,408 @@
+/****************************************************************
+      My Custom stylesheet
+      Created By Hitvardhan Singh Solanki
+****************************************************************/
+
+/****************************************************************
+      base styling
+****************************************************************/
+
+body{
+  background-image: url('../images/background_genesis.jpg') ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main-container{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/****************************************************************
+      Styling navigation bar
+****************************************************************/
+
+.navbar{
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:10px;
+  max-height: 100vh !important;
+  margin-bottom: 0px !important;
+  border-bottom: thick solid #ef403d;
+
+}
+.navbar-brand {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important
+}
+
+.navbar ul li a{
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+.navbar ul .active{
+  background-color: #ef403d !important;
+}
+
+.navbar ul li:hover{
+  background-color: #ef403d !important;
+}
+
+/****************************************************************
+      Styling tag section bar
+****************************************************************/
+
+.header_text{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #fff;
+    -moz-box-shadow: inset 0 -10px 10px -10px #000000;
+    -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
+    box-shadow: inset 0 -10px 10px -10px #000000;
+}
+
+/****************************************************************
+      Styling slider section
+****************************************************************/
+.item{
+  height: 500px;
+}
+.item img{
+  width:100%;
+}
+.carousel-inner{
+  -webkit-box-shadow: 0px 15px 14px -9px rgba(0,0,0,0.61);
+-moz-box-shadow: 0px 15px 14px -9px rgba(0,0,0,0.61);
+box-shadow: 0px 15px 14px -9px rgba(0,0,0,0.61);
+}
+.carousel-control{
+  opacity: 1 !important;
+  color: #fff !important;
+  background-image: none !important;
+  width: 2% !important;
+}
+.glyphicon{
+  background-color: #000 !important;
+  font-size: 30px !important;
+}
+.carousel-control:hover{
+  background-color: transparent !important;
+  background-image: none !important
+  opacity: 0 !important;
+}
+.carousel-indicators li {
+    background-color : #444 !important;
+    border: thick solid #444 !important;
+}
+.carousel-indicators .active {
+    background-color : transparent !important;
+    border: thin solid #444 !important;
+}
+
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;left:0;
+    z-index:1;
+}
+.jumbotron {position:relative;padding:50px; height: 100vh !important;}
+.jumbotron .container {
+  z-index:2;
+  position:relative;
+}
+
+.jumbotron-billboard .img-1{
+  background: #fff url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/grey-light-smooth-moving-waves-background-video-animation-hd-1920x1080_vjkea4zve__S0000.jpg") center center;
+}
+.jumbotron-billboard .img-2{
+  background: #fff url("http://allswalls.com/images/grey-curves-wallpaper-1.jpg") center center;
+}
+.jumbotron-billboard .img-3{
+  background: #fff url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-gray-solid-color-background.jpg") center center;
+}
+.jumbotron-billboard .img-4{
+  background: #fff url("https://s-media-cache-ak0.pinimg.com/originals/59/7e/f5/597ef5f26adfcf185ca244a61f52ef2a.jpg") center center;
+}
+
+
+/****************************************************************
+      Styling icon section
+****************************************************************/
+
+
+.second-container{
+text-align: center;
+}
+
+.second-container p{
+color: #aaaaaa;
+}
+
+.second-container .second-pane{
+padding: 100px;
+
+}
+
+.second-container .second-pane h4{
+  font-weight: normal;
+}
+
+.second-container .second-pane .icon-small{
+height: 85px;
+width: 85px;
+margin: 0 auto;
+margin-bottom: 10px;
+border-radius: 50%;
+border: solid 2px #eaeaea;
+align-items: center;
+align-content: center;
+background-color: #ef403d;
+}
+
+.icon-main{
+margin: 25% auto;
+color: #fff;
+font-size: 40px !important;
+}
+
+/****************************************************************
+      Styling Projects section
+****************************************************************/
+
+.projects {
+  padding: 20px !important;
+}
+
+.text {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 15px;
+    min-height: 27px;
+    width: 100%;
+}
+.listing-posts .post{
+  clear: both;
+  margin-top: 5px;
+  margin-bottom: 50px;
+
+}
+.listing-posts .post .post-date {
+    margin-right: 10px;
+    background: #ef403d;
+    width: 50px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 7px;
+
+}
+
+.listing-posts .post .post-date .month-year{
+  background-color: #111111;
+    display: block;
+    width: 100%;
+    font-size: 9px;
+    margin-top: 7px;
+}
+.listing-posts .post a{
+  font-weight: bold;
+  color: black;
+}
+
+.listing-posts .post a:hover{
+  color: #df403d;
+  text-decoration: none;
+}
+
+.tab-menu{
+  padding-left: 0px !important;
+}
+
+.list-group{
+  border: none !important;
+}
+
+.list-group-item:last-child, .list-group-item:first-child  {
+     border-radius: 0px !important;
+}
+
+.list-group-item{
+  background-color: transparent !important;
+  color: #999 !important;
+
+}
+
+.list-group .active{
+  border-right: 0px !important;
+}
+
+/****************************************************************
+      Styling our clients section
+****************************************************************/
+
+.out-clients{
+  padding: 20px;
+}
+
+.out-clients .text hr{
+  border:none;
+  border-top:1px dotted #f00;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:50%;
+}
+
+.client-logo{
+  border: thin solid #000;
+  padding: 10px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 50%;
+  -webkit-transition: border-radius .5s, box-shadow .5s; /* For Safari 3.1 to 6.0 */
+    transition: border-radius .5s, box-shadow .5s;
+}
+
+.client-logo:hover{
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 30px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 30px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 30px 15px 0px rgba(0,0,0,0.75);
+}
+
+/****************************************************************
+      Styling footer section
+****************************************************************/
+
+.footer-1{
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #242424;
+    border-top: 1px solid #ddd;
+    color: #777;
+    padding: 10px 10px;
+}
+
+.footer-1 h4{
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
+  margin: 10px 0 18px;
+}
+
+.footer-1 .logo{
+  margin-top: 10px;
+    width: 120px;
+}
+
+.footer-1 .row .col-md-3 .nav-list{
+  color: #fff;
+  list-style-type: none;
+  padding: 5px !important;
+}
+
+.footer-1 .row .col-md-3 .nav-list ::before{
+  content: " > ";
+}
+
+
+.footer-1 .posts .post a{
+  text-indent: 15px;
+    color: #fff;
+}
+
+.footer-1 .posts .post a:hover{
+    color: #999;
+}
+
+.footer-1 .posts .post {
+    overflow: hidden;
+    margin: 0 0 0px 0;
+    border-bottom: 1px dotted #333;
+    padding: 5px 0;
+}
+
+.footer-1 .posts .post:last-child{
+  border-bottom: none;
+}
+
+.footer-1 .social-icons{
+  margin: 0 20%;
+
+}
+.footer-1 .social-icons .social-logo i{
+  padding: 0px 10px;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.footer-1 .social-icons .social-logo i:hover{
+  transform: scale(1.8);
+}
+
+/****************************************************************
+      Styling footer-2 section
+****************************************************************/
+
+.footer-2{
+    background-color: #111111;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+/****************************************************************
+      Media query
+****************************************************************/
+@media (max-width: 1000px) {
+  .container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+ .out-clients .row .col-md-3{
+   margin-left: 25% !important;
+   margin-top: 20px;
+  }
+  .second-container .second-pane {
+    padding: 10px !important;
+}
+.header_text{
+  font-size: 10px;
+}
+ }
+ @media (max-width: 600px) {
+   #myCarousel{
+     display: none;
+   }
+   .header_text{
+     font-size: 7px;
+   }
+ }
+
+ @media (max-width: 320px){
+   .out-clients .row .col-md-3{
+     margin-left: 10% !important;
+     margin-top: 20px;
+    }
+ }
